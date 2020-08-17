@@ -4,9 +4,9 @@
 A startup Sparkify(music streaming company),over the past few months has grown exponentially and want to move their data warehouse to a data lake.
 
 As a data engineer, we will build an ETL pipeline as follow:
-    *   **Extract** - We will extract data from Amazon s3 bucket.
-    *   **Transform** - We will processes/transform the data using Spark .
-    *   **Load** - We will load the processed data to Amazon S3 bucket as a set of dimensional table. 
+   * **Extract** - We will extract data from Amazon s3 bucket.
+   *   **Transform** - We will processes/transform the data using Spark .
+   *   **Load** - We will load the processed data to Amazon S3 bucket as a set of dimensional table. 
   
 This will allow the analytics team to continue finding insights in what songs their users are listening to.
 
