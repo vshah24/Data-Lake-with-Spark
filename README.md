@@ -18,6 +18,28 @@ Python,Spark,SQL,Amazon S3 and Data Lake
 Dataset used in the project are provided by two public S3 buckets. One bucket contains information about songs and artist. The other bucket contains log information i.e. information about the users.
 
 ## Data Lake Schema
+ 
+#### Fact Tables
+1. **Songplays** - records in log data associated with song plays i.e. records with page `Next Song`
+  
+  ```songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent```
+
+#### Dimension Tables
+2. **users** - users in the app
+
+    ```user_id, first_name, last_name, gender, level```
+    
+3. **songs** - songs in music database
+
+    ```song_id, title, artist_id, year, duration```
+    
+4. **artists** - artists in music database
+
+   ``` artist_id, name, location, latitude, longitude```
+ 
+5. **time** - timestamps of records in songplays broken down into specific units
+
+    ```start_time, hour, day, week, month, year, weekday```
 
 
 ## Project Files
